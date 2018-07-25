@@ -1,6 +1,73 @@
+<<<<<<< HEAD
 /* box for the info */
 body {
     background-color: lightblue;
     border-style: solid;
     border-width: 1px;
+=======
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    background-image: url("./../images/doodles.png");
+    background-repeat: repeat;
+    margin: 0;
+}
+.content{
+    flex:1 0 auto;
+}
+
+header{
+    background-color:whitesmoke;
+    font-family: 'Georgia', Times, serif;
+    padding:20px;
+}
+.namebox{
+    background-color: teal;
+    border-radius:5px 5px 0 0;
+    color:whitesmoke;
+    float:left;
+    margin: 20px 0 0 20px;
+    padding: 25px;
+}
+.menulink{
+    display:block;
+    float: right;
+    border-right: 1px solid grey;
+
+}
+.clearfix{
+    overflow: auto;
+}
+.centerbox{
+    display: block;
+    background-color:whitesmoke;
+    margin: 100px auto;
+    width: 960px;
+    padding: 10px;    
+}
+.boxheader{
+    border-bottom: 2px solid gray;
+    color:teal;
+}
+.insidebox{    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+img{
+    float: left;
+    margin: 5px;
+}
+footer{
+    flex-shrink: 0;
+    background: #666666;
+    text-align: center;
+    color: white;
+    border-top: 5px solid teal;
+
+>>>>>>> cb978f5d43da90f5530cabf4bfdba8f9315dd932
 }
